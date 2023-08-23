@@ -1,0 +1,29 @@
+.wrapper{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    color: white;
+    border: none;
+    outline: none;
+    position: relative;
+    width: 78%;
+    text-align: left;
+    background-color: #4E2F93;
+    border-radius: 8px;
+    margin: 3px;
+    padding: 0.4rem 2rem;
+}
+.search::placeholder{
+    position: relative;
+    left: 1rem;
+}
+.searchicon{
+    z-index: 1;
+    position: absolute ;
+    left: 1rem;
+    cursor: pointer;
+}
