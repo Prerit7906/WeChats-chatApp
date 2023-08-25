@@ -1,5 +1,9 @@
 .chat{
     flex: 2;
     height: 100%;
-    background-color: #EEECE6;
+    background-color: #d5c1ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }

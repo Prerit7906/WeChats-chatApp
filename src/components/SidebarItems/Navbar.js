@@ -9,7 +9,7 @@ const Navbar = () => {
       <span >WeChats</span>
       <div>
         <img src={dp} alt='DP'></img>
-        <p>Prerit Mishra</p>
+        <p>Harigopal Sar...</p>
         <NavLink to='./login'>Logout</NavLink>
       </div>
     </div>

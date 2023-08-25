@@ -1,0 +1,26 @@
+.actions{
+    flex: 3;
+    width: 100%;
+    background-color: #4E2F93;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid  #6d42cacc;
+    padding: 0px 0px;
+    color: white;
+    font-weight: 600;
+}
+.actions span{
+    position: relative;
+    width: 80%;
+    text-align: left;
+    left: 1.2rem;
+}
+.actions div{
+    position: relative;
+    width: 20%;
+    text-align: right;
+    right: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

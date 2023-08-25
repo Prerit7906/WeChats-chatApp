@@ -16,7 +16,14 @@ const Contacts = () => {
         <img src={dp} alt='man' />
         <div>
           <span>Mani Mishra</span>
-          <p>Kutte</p>
+          <p>Bhaiya papa daat rhe the</p>
+        </div>
+      </div>
+      <div className={classes.contact}>
+        <img src={dp} alt='man' />
+        <div>
+          <span>Mani Mishra</span>
+          <p>Bhaiya papa daat rhe the</p>
         </div>
       </div>
       <div className={classes.contact}>
@@ -29,29 +36,15 @@ const Contacts = () => {
       <div className={classes.contact}>
         <img src={dp} alt='man' />
         <div>
-          <span>Papa G</span>
-          <p>Jaldi ghar aaja</p>
+          <span>Keshav</span>
+          <p>Kha reh go?</p>
         </div>
       </div>
       <div className={classes.contact}>
         <img src={dp} alt='man' />
         <div>
-          <span>Papa G</span>
-          <p>Jaldi ghar aaja</p>
-        </div>
-      </div>
-      <div className={classes.contact}>
-        <img src={dp} alt='man' />
-        <div>
-          <span>Papa G</span>
-          <p>Jaldi ghar aaja</p>
-        </div>
-      </div>
-      <div className={classes.contact}>
-        <img src={dp} alt='man' />
-        <div>
-          <span>Papa G</span>
-          <p>Jaldi ghar aaja</p>
+          <span>Keshav</span>
+          <p>Kha reh go?</p>
         </div>
       </div>
       <div className={classes.contact}>

@@ -7,18 +7,27 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     padding: 0 10px;
+}
+.navbar span{
+    text-align: left;
+    width: 40%;
+    position: relative;
+    left: 0.8rem;
 }
 .navbar img{
     width: 1.8rem;
     border-radius: 50%;
     object-fit: cover;
+    padding-right: 0.2rem;
 }
 .navbar div{
+    position: relative;
+    right: 0.8rem;
+    width: 60%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 .navbar a{
     font-size: 12px;
@@ -32,6 +41,6 @@
 .navbar p{
     font-size: small;
 }
-.navbar div img,.navbar p{
+.navbar p{
     margin-right: 0.5rem;
 }
