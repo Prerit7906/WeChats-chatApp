@@ -34,3 +34,38 @@
     right: 1rem;
     cursor: pointer;
 }
+.container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.searchresult{
+    position: absolute;
+    width: 95%;
+    background-color: #4E2F93;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 11px 0px #2D1B55;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    top: 2rem;
+}
+.searchresult img{
+    width: 3.18rem;
+    display: block;
+    border-radius: 50%;
+}
+.searchresult div{
+    background-color: #8664D3;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 5px;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}

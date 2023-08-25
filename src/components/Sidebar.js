@@ -9,7 +9,6 @@ const Sidebar = () => {
     <div className={classes.sidebar}>
         <Navbar/>
         <Search/>
-        <hr style={{width:"100%", border:"1px solid #9677DB"}}/>
         <Contacts/>
     </div>
   )
